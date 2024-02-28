@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello</title>
+    <style>
+        .display {
+            height: 20rem;
+            
+        }
+        .display img {
+           
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col offset-4">
+                <h1 class="h1 text-danger algn-center">Hello Dr. Singer</h1>
+                <p class="paragraph text-warning">There is a game for you</p>
+            </div>
+        </div>
+
+        <!-- Row containing the image -->
+        <div class="row  p-0 display">
+            <div class="col-12 ">
+                <img id="gameImage" class="img-fluid images" alt="Responsive Image">
+            </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+        <div class="row mt-5">
+            <div class="col">
+                <!-- Button to display the image -->
+                <button class="btn btn-primary mt-5" onclick="displayImage1()">First Surprise</button>
+            </div>
+            <div class="col">
+                <!-- Button to display the image -->
+                <button class="btn btn-secondary mt-5" onclick="displayImage2()">Second Surprise</button>
+            </div>
+        
+        <div class="col">
+            <!-- Button to display the image -->
+            <button class="btn btn-danger mt-5" onclick="displayImage3()">Third Surprise</button>
+        </div>
+        <div class="col">
+            <!-- Button to display the image -->
+            <button class="btn btn-warning mt-5" onclick="displayImage4()">Fourth Surprise</button>
+        </div>
+        <div class="col">
+            <!-- Button to display the image -->
+            <button class="btn btn-success mt-5" onclick="displayImage5()">Fifth Surprise</button>
+        </div>
+        <div class="col">
+            <!-- Button to display the image -->
+            <button class="btn btn-info mt-5" onclick="displayImage6()">Six Surprise</button>
+        </div>
+    
+    <div class="col">
+        <!-- Button to display the image -->
+        <button class="btn btn-dark mt-5" onclick="displayImage7()">Seven Surprise</button>
+    </div>
+    <div class="col">
+        <!-- Button to display the image -->
+        <button class="btn btn-warning mt-5" onclick="displayImage8()">Eight Surprise</button>
+    </div>
+    </div>
+
+    </div>
+
+    <script>
+        // Image link stored in a variable
+        var imageUrl1= "img1.jpg";
+        var imageUrl2=  "img2.jpg";
+        var imageUrl3= "img3.jpg";
+        var imageUrl4=  "img4.jpg";
+        var imageUrl5= "img5.jpg";
+        var imageUrl6=  "img6.jpg";
+        var imageUrl7= "img7.jpg";
+        var imageUrl8=  "img8.jpg";
+
+        function displayImage1() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl1;
+            
+        }
+        function displayImage2() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl2;
+            
+        }
+        
+        function displayImage3() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl3;
+            
+        }
+        function displayImage4() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl4;
+            
+        }
+        
+        function displayImage5() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl5;
+            
+        }
+        function displayImage6() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl6;
+            
+        }
+        
+        function displayImage7() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl7;
+            
+        }
+        function displayImage8() {
+            // Set the image source to the variable value
+            document.getElementById("gameImage").src = imageUrl8;
+            
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
